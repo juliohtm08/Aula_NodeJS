@@ -1,0 +1,35 @@
+1.Streams => Fluxo de dados contínuos, como um rio de informações,
+que podem ser lidas ou escritas de forma incremental.
+
+    a.Características: 
+        => Dividem um grande fluxo de dados em em vários pedaços(ou chunks),
+        o que torna o processo/manipulação mais eficiente/otimizado;
+        => Ideal para otimizar operações em grandes volumes de dados 
+        e para processar fluxos contínuos;
+
+        Ex: Chat em tempo real.
+
+    b.Tipos de Streams:
+        => Readable Stream: Stream de leitura de conteúdos;
+        => Writeable Stream: Stream de escrita de dados;
+        => Duplex Stream: Stream de 'mão dupla', pode-se tanto ler quanto escrever;
+        => Transform Stream: Stream de transformação de dados;
+
+
+2.Buffers => Áreas temporárias de armazenamentode dados,
+especialmente úteis quando trabalhamos com strams.
+
+    Ex: O Spooler de impresão funciona como um buffer,
+        pois é um espaço de armazenamento temporário
+        que guarda os arquivos que estão na fila de impressão.
+
+    a.Características:
+        => Armazenamento temporário de dados binários(normalmente na RAM);
+        => São úteis para representar dados binários brutos, armazenando
+        uma sequência de números inteiros(cada número inteiro representa um byte);
+        => Possuem tamanho fixo, ou seja, não é possível mudar o tamanho de um buffer após ele ser criado;
+
+    b.Operações com buffers:
+        => Escrita: adicionar dados ao buffer;
+        => Leitura: extrair dados do buffer;
+        => Manipulação: realizar diversas operações diretamente em dados binários.
