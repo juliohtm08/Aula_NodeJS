@@ -1,0 +1,203 @@
+&lt;!DOCTYPE html&gt;
+&lt;html lang="pt-br"&gt;
+    &lt;head&gt;
+        &lt;meta charset="UTF-8" /&gt;
+        &lt;meta http-equiv="X-UA-Compatible" content="IE=edge" /&gt;
+        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+        &lt;link rel="stylesheet" href="css/style.css" /&gt;
+        &lt;title&gt;projeto refeito&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div class="container"&gt;
+            &lt;header class="header"&gt;
+                &lt;img
+                    src="img/logoonebitcode.png"
+                    alt="logo-onebitcode"
+                    class="logoNavBar"
+                /&gt;
+                &lt;div class="headerBtnGroup"&gt;
+                    &lt;button class="navBtn"&gt;Login&lt;/button&gt;
+                    &lt;button class="navBtn"&gt;Registro&lt;/button&gt;
+                    &lt;button class="navBtn"&gt;FAQ&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/header&gt;
+            &lt;p class="sectionTitle" id="backToTop"&gt;BEM VINDO A ONEBITSPORTS!&lt;/p&gt;
+            &lt;p class="sectionDescription"&gt;
+                Aqui é onde você encontra todos os itens mais novos e modernos
+                do seu esporte preferido.
+            &lt;/p&gt;
+            &lt;section class="gridContainer"&gt;
+                &lt;div class="mainContent"&gt;
+                    &lt;div class="categoryCard"&gt;
+                        &lt;img
+                            src="img/boxe.jpg"
+                            alt="boxe"
+                            class="maincardImg"
+                        /&gt;
+                        &lt;p class="mainCategoryCardTitle"&gt;BOXE&lt;/p&gt;
+                        &lt;p class="mainCategoryCardDescription"&gt;
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio modi dolor soluta consequuntur explicabo
+                            et ab illo odit, blanditiis adipisci.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="categoryCard"&gt;
+                        &lt;img
+                            src="img/crossfit.jpg"
+                            alt="crossfit"
+                            class="maincardImg"
+                        /&gt;
+                        &lt;p class="mainCategoryCardTitle"&gt;CROSSFIT&lt;/p&gt;
+                        &lt;p class="mainCategoryCardDescription"&gt;
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio modi dolor soluta consequuntur explicabo
+                            et ab illo odit, blanditiis adipisci.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="categoryCard"&gt;
+                        &lt;img
+                            src="img/natacao.jpg"
+                            alt="natação"
+                            class="maincardImg"
+                        /&gt;
+                        &lt;p class="mainCategoryCardTitle"&gt;NATAÇÃO&lt;/p&gt;
+                        &lt;p class="mainCategoryCardDescription"&gt;
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio modi dolor soluta consequuntur explicabo
+                            et ab illo odit, blanditiis adipisci.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="categoryCard"&gt;
+                        &lt;img
+                            src="img/roupas.jpg"
+                            alt="roupas"
+                            class="maincardImg"
+                        /&gt;
+                        &lt;p class="mainCategoryCardTitle"&gt;ROUPAS&lt;/p&gt;
+                        &lt;p class="mainCategoryCardDescription"&gt;
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio modi dolor soluta consequuntur explicabo
+                            et ab illo odit, blanditiis adipisci.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="categoryCard"&gt;
+                        &lt;img
+                            src="img/basquete.jpg"
+                            alt="basquete"
+                            class="maincardImg"
+                        /&gt;
+                        &lt;p class="mainCategoryCardTitle"&gt;BASQUETE&lt;/p&gt;
+                        &lt;p class="mainCategoryCardDescription"&gt;
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio modi dolor soluta consequuntur explicabo
+                            et ab illo odit, blanditiis adipisci.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="categoryCard"&gt;
+                        &lt;img
+                            src="img/corrida.jpg"
+                            alt="corrida"
+                            class="maincardImg"
+                        /&gt;
+                        &lt;p class="mainCategoryCardTitle"&gt;CORRIDA&lt;/p&gt;
+                        &lt;p class="mainCategoryCardDescription"&gt;
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio modi dolor soluta consequuntur explicabo
+                            et ab illo odit, blanditiis adipisci.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="categoryCard"&gt;
+                        &lt;img
+                            src="img/surf.jpg"
+                            alt="surf"
+                            class="maincardImg"
+                        /&gt;
+                        &lt;p class="mainCategoryCardTitle"&gt;SURF&lt;/p&gt;
+                        &lt;p class="mainCategoryCardDescription"&gt;
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio modi dolor soluta consequuntur explicabo
+                            et ab illo odit, blanditiis adipisci.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="categoryCard"&gt;
+                        &lt;img
+                            src="img/trilha.jpg"
+                            alt="trilha"
+                            class="maincardImg"
+                        /&gt;
+                        &lt;p class="mainCategoryCardTitle"&gt;TRILHA&lt;/p&gt;
+                        &lt;p class="mainCategoryCardDescription"&gt;
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio modi dolor soluta consequuntur explicabo
+                            et ab illo odit, blanditiis adipisci.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="categoryCard"&gt;
+                        &lt;img
+                            src="img/tenis.jpg"
+                            alt="tênis"
+                            class="maincardImg"
+                        /&gt;
+                        &lt;p class="mainCategoryCardTitle"&gt;TÊNIS&lt;/p&gt;
+                        &lt;p class="mainCategoryCardDescription"&gt;
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Odio modi dolor soluta consequuntur explicabo
+                            et ab illo odit, blanditiis adipisci.
+                        &lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="sidebarContent"&gt;
+                    &lt;p&gt;CATEGORIAS EXTRAS&lt;/p&gt;
+                    &lt;div class="sidebarCard"&gt;
+                        &lt;img
+                            src="img/bicicletas.jpg"
+                            alt="bicicletas"
+                            class="sidebarCardImg"
+                        /&gt;
+                        &lt;p class="sidebarCardTitle"&gt;BICICLETAS&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="sidebarCard"&gt;
+                        &lt;img
+                            src="img/esportesNaNeve.jpg"
+                            alt="esportesNaNeve"
+                            class="sidebarCardImg"
+                        /&gt;
+                        &lt;p class="sidebarCardTitle"&gt;ESPORTES DE FRIO&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="sidebarCard"&gt;
+                        &lt;img
+                            src="img/futebolAmericano.jpg"
+                            alt="futebolAmericano"
+                            class="sidebarCardImg"
+                        /&gt;
+                        &lt;p class="sidebarCardTitle"&gt;FUTEBOL AMERICANO&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="sidebarCard"&gt;
+                        &lt;img
+                            src="img/skate.jpg"
+                            alt="skate"
+                            class="sidebarCardImg"
+                        /&gt;
+                        &lt;p class="sidebarCardTitle"&gt;SKATE&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="sidebarCard"&gt;
+                        &lt;img
+                            src="img/yoga.jpg"
+                            alt="yoga"
+                            class="sidebarCardImg"
+                        /&gt;
+                        &lt;p class="sidebarCardTitle"&gt;YOGA&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/section&gt;
+            &lt;footer class="footer"&gt;
+                &lt;img
+                    src="img/logoonebitcode.png"
+                    alt="logo-onebitcode"
+                    class="logoFooter"
+                /&gt;
+                &lt;a href="#backToTop" class="footerAnchor"&gt;VOLTAR PARA O TOPO&lt;/a&gt;
+            &lt;/footer&gt;
+        &lt;/div&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
