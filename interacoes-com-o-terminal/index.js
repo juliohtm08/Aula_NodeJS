@@ -39,7 +39,7 @@ const rl = readline.createInterface({
         //process.exit(0);
     });
 */
-// Aqui está sendo adicionado um evendo de quando o usuário encerrar o terminal
+// Aqui está sendo adicionado um evento de quando o usuário encerrar o terminal
 rl.on("SIGINT", () => {
     rl.question("Deseja realmente sair?(s/n)", (answer) => {
         if (answer.trim().toLowerCase() === "s") {
