@@ -1,0 +1,53 @@
+Revisão sobre HTTP e Programação WEB
+
+1.HTTP:
+    a.O que é HTTP?
+        => Principal protocolo usado na WEB;
+        => Protocolo de comunicação baseado em REQUISIÇÕES e RESPOSTAS;
+        => Define como o cliente e servidor devem interagir, além do formato 
+        e modo de transmissão das mensagens entre eles;
+
+    b.Principais métodos:
+        => GET: leitura ou obtenção de dados;
+        => POST: Envio de dados;
+        => PUT/PATCH: Atualização ou correção de dados no servidor
+        (PUT: Adicionar um novo valor no lugar do antigo. PATCH: Atualizar um valor específico);
+        => DELETE: Deletar dados do servidor
+
+    b.Principais status: Sucesso com as requisições.
+        => 200 e variações: 
+            => 200: SUCESSO;
+            => 201: CRIADO;
+            => 202: ACEITO;
+            => 204: SUCESSO, PORÉM NENHUM CONTEÚDO;
+            => 206: CONTEÚDO PRINCIPAL;
+
+        => 300 e variações: Relacionado ao redirecionamento.
+            => 301: Movido permanentemente;
+
+        => 400: Problemas com requisições.
+            => 400: Requisição ruim/incorreta(genérico);
+            => 401: Não autorizado(ex: sem permissão para acessar a página);
+            => 403: Proibido(ex:sem acesso ao conteúdo da página);
+            => 404: Não encontrado;
+            => 405: Método não permitido;
+            => 408: Timeout ou tempo esgotado;
+
+        => 500: Problemas com o servidor:
+            => 500: Erro interno no servidor(genérico);
+            => 501: Procedimento não implementado(ex: acessar uma url, porém não há um método implementado para acessá-la);
+            => 503: Serviço indisponível;
+
+    c.Como ele é usado?
+        => Os navegadores enviam requisições(geralmente GET ou POST) e o backend as recebe,
+        interpreta e envia uma resposta(um arquivo HTML ou JSON, por exemplo);
+        => Ao desenvolvermos aplicações para servidores web (o 'backend' de um app, por exemplo)
+        implementamos este protocolo na comunicação;
+
+2.O que faz um programador WEB?
+    => O programador WEB atua tanto desenvolvendo as páginas que farão as requisições(frontend) quanto as
+    aplicações no servidor para respondê-lás(backend).
+
+3.Onde entra o NodeJS?
+    => O Node.js permite trabalhar com JavaScript fora do navegador(nesse caso, no lado do servidor/backend);
+    => Se torna uma ferramenta excelente para criar servidores HTTP e API's no backend;
