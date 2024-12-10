@@ -1,3 +1,9 @@
+/* 
+    O Event Loop no Node.js é um mecanismo que gerencia a execução de operações assíncronas, 
+    permitindo que a aplicação manipule múltiplas tarefas sem bloquear a execução do código. 
+    Ele é o coração do modelo de execução assíncrona e não bloqueante do Node.js.
+*/
+
 // O módulo 'fs' serve para ler arquivos
 const fs = require("fs"); // aqui também poderia estar como: require('node:fs')
 
