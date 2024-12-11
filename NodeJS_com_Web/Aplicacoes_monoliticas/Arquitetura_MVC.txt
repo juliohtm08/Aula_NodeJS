@@ -1,0 +1,18 @@
+1. O que é?
+    => É um padrão de projeto que ajuda naorganização de um software
+    => Dita como estruturar as pastas, as classes e as funções no projeto,
+    além de todo o fluxo de funcionamento da aplicação
+
+2. Camadas do MVC:
+    => Model(Modelo): Camada responsável pela modelagem das entidades e, em muitos casos, pela leitura e persistência na base de dados;
+    => View(Visão): Camada responsável pela interface da aplicação, consistindo, na maioria das vezes, no HTML, CSS e JS(ou o frontend);
+    => Controller(Controle): Camada responsável por receber as requisições e processá-las, servindo também de ponte entre o modelo e a visão;
+
+3. Em resumo:
+    => A requisição é recebida pela aplicação e enviada para o CONTROLADOR apropriado;
+    => O controlador irá processar a requisição, validar e obter os dados necessários através de um ou mais MODELOS;
+    => O controlador também irá solicitar à VISÃO o HTML renderizado(ou outro formato) usando os dados do modelo;
+    => O controlador retorna a resposta da requisição que foi feita; 
+
+4. Diagrama:
+    => https://www.alura.com.br/artigos/assets/padroes-arquiteturais-arquitetura-software-descomplicada/imagem8.jpg
