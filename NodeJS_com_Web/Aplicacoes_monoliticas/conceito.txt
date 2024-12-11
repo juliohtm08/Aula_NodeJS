@@ -1,0 +1,32 @@
+1. O que é um monólito?
+    => Monólito é uma aplicação que engloba todos o serviços em um único software,
+    desde o backend até o frontend.
+
+    Ex:
+        => Uma loja virtual  toda desenvolvida usando Express;
+        => Essa aplicação realiza a conexão com o banco de dados para gerenciar o estoque, vendas, pagamentos, etc;
+        => Além disso, serve páginas HTML para todas as áreas do site, incluindo, sotrefront, contas de clientes e a adminsitração da loja;
+
+1. O que não é um monólito?
+    =>  Um conjunto de aplicações que inclui um ou mais projetos separados para API's e outro(s) para o frontend
+    (backend e frontend em diretórios separados)
+
+    Ex:
+        => uma loja virtual estruturada em diferentes aplicações e microsserviços;
+        => Um serviço exclusivamente para autenticação;
+        => Um serviço para lidar com o checkout;
+        => Uma API para produtos, estoque, etc;
+        => Um aplicação para o frontend;
+        => Uma outra aplicação para a adminsitração da loja;
+
+3. Vantagens:
+    => Menos complexidade, ideal para projetos pequenos/médios;
+    => Toda base de código em um único lugar;
+    => Geralmente irá usar uma única linguagem/framework;
+    => mais fácil de testar;
+    => mais fácil de gerenciar;
+
+4. Desvantagens:
+    => Quanto mais pessoas trabalhando no projeto, mais difícil é de gerenciar;
+    => Menor escalabilidade e menos opções de escalabilidade(menos chance de evoluir);
+    => Organização de um aarquitetura bem planejada são essenciais ou o projeto crescerá a um ponto impossível de entender/manter;
