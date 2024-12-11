@@ -6,7 +6,7 @@ const app = express();
 
 // Configuração do EJS
 app.set("view engine", "ejs");
-app.set("view", path.join(__dirname, "views"));
+app.set("views", path.join(__dirname, "views"));
 
 // Configuração de arquivos estáticos
 app.use(express.static("public"));
