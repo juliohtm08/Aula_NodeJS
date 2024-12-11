@@ -8,6 +8,8 @@
     </head>
 
     <body>
+        <%- include('partials/header') %>
+
         <div class="container">
             <h1><%= post.title %></h1>
             <div class="post-date">
@@ -26,5 +28,7 @@
 
             <a href="/" class="btn-back">Voltar para a página inicial</a>
         </div>
+
+        <%- include('partials/footer') %>
     </body>
 </html>

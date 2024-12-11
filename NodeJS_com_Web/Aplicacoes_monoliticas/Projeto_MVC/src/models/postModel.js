@@ -1,15 +1,25 @@
 let posts = [
     {
         id: "1",
-        title: "teste1",
-        content: "Lorem ipsum...",
+        title: "Entendendo o Padrão MVC: O Guia Definitivo para Iniciantes",
+        content:
+            "O padrão de arquitetura MVC (Model-View-Controller) é amplamente utilizado no desenvolvimento web para organizar e estruturar aplicações. Neste artigo, explicamos como o MVC separa responsabilidades em três camadas principais, facilitando a manutenção e a escalabilidade dos projetos. Acompanhe exemplos práticos para entender como implementar essa arquitetura no seu próximo projeto.",
         createdAt: new Date(),
         updatedAt: new Date(),
     },
     {
         id: "2",
-        title: "teste2",
-        content: "Lorem ipsum...",
+        title: "Renderizando Páginas Dinâmicas com EJS: Um Guia Passo a Passo",
+        content:
+            "EJS (Embedded JavaScript) é uma poderosa ferramenta de renderização de templates para aplicações Node.js. Neste artigo, exploramos como configurar EJS em um projeto Express, criar templates dinâmicos e exibir dados do backend na interface do usuário. Veja como simplificar o desenvolvimento de aplicações web dinâmicas com poucos passos.",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+    },
+    {
+        id: "3",
+        title: "Desenvolvimento Backend",
+        content:
+            "Express.js é um framework minimalista para Node.js que facilita a criação de servidores web robustos. Neste tutorial, vamos configurar um servidor básico, criar rotas e entender como lidar com requisições e respostas. Ao final, você terá uma aplicação funcional e pronta para ser expandida.",
         createdAt: new Date(),
         updatedAt: new Date(),
     },
