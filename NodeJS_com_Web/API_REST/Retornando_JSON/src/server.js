@@ -31,3 +31,5 @@ app.get("/games", (req, res) => {
 const PORT = 3000;
 
 app.listen(PORT, () => console.log("Servidor iniciado!"));
+
+//terminal: curl http://localhost:3000/games
