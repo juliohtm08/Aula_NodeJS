@@ -13,6 +13,7 @@ app.get("/games", gamesController.index);
 app.post("/games", gamesController.save);
 app.get("/games/:id", gamesController.show);
 app.post("/games/:id/genres", gamesController.addGenre);
+app.put("/games/:id", gamesController.update);
 
 const PORT = 3000;
 
