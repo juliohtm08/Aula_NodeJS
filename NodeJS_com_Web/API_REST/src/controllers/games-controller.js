@@ -103,7 +103,7 @@ module.exports = {
     }
 
     // se o gênero não for uma string ou não for encontrado
-    if (typeof genre !== "string" || games[gameIndex].genres.includes(genre)) {
+    if (typeof genre !== "string" || !games[gameIndex].genres.includes(genre)) {
       return res.status(400).json("Invalid genre");
     }
 
