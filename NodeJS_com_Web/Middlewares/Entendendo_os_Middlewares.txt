@@ -1,0 +1,35 @@
+1. O que é?
+    => São funções que têm acesso ao objeto de requisição(req), ao objeto de resposta(res) e à 
+    próxima função do clico de requisição/resposta;
+    => São utilizados para modificar objetos req e res, encerrar o ciclo de requisição/resposta
+    ou chamar o próximo middleware na pilha;
+
+2. Como eles funcionam?
+    => A ordem dos middlewares importa(MUITO);
+    => São registrados na aplicação e então executados sequencialmente sempre que chegar uma nova requisição;
+    => Cada middleware faz o que precisa fazer com a requisição e a resposta e então chama o próximo;
+    => O último middleware finaliza a requisição e devole uma resposta;
+
+3. Tipos de middlewares:
+    a. Middlewares da aplicação: 
+        => São registrados para atuar em todas as requisições;
+        => Ex: Logging, parsing(conversão) de corpo da requisição, manipulação de cabeçalhos, etc;
+    
+    b. Middlewares de roteador:
+        => São registrados para atuar em requisições com caminhos ou padrões de caminhos específicos,
+        ou seja, um middleware que funcione em uma rota específica("/playlists");
+        => Ex: controlador de rota, autenticação, autorização, validação de dados, etc;
+    
+    c. Middlewares de tratamento de erro:
+        => São registrados com um assinatura diferente, possuindo 4 argumentos ao invés de 3,
+        onde o primeiro argumento será sempre um objeto de erro;
+
+    d. Podem ser divididos em:
+        => Middlewares incorporados: são middlewares nativos, ja vem incorporados no express, 
+        exemplo: express.json(),express.urlencoded()
+        
+        => Middlewares de terceiros: são middlewares criados por terceiros, por exemplo para trabalhar com cookies,
+        autenticação, etc;
+        
+        => Middlewares próprios: são middlewares criados por nós mesmos para realizar um comportamento específico;
+
