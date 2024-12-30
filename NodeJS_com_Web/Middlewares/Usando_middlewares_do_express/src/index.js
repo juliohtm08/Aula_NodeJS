@@ -4,6 +4,7 @@ const middlewareC = require("./middlewares/middleware-c"); // Middleware persona
 
 const app = express();
 
+/* 
 // Aqui a gente NÃO está executando a função, mas sim passando a assinatura dela,
 // ou seja, entregando uma função pronta que será chamada
 // Tipo: Middleware de nível de aplicação
@@ -49,6 +50,7 @@ app.use(function (err, req, res, next) {
     next(); // Continua se não houver erro
   }
 });
+ */
 
 // Middleware embutido/próprio do Express para servir arquivos estáticos
 // Serve os arquivos da pasta "public" diretamente (como HTML, CSS, imagens, etc.)
