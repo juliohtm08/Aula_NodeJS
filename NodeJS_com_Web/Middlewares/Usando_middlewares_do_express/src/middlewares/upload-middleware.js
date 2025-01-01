@@ -1,7 +1,7 @@
-const multer = require("multer");
+const multer = require('multer');
 
 const uploadMiddlewares = multer({
-  dest: "uploads/",
+  dest: 'uploads/',
 });
 
 module.exports = uploadMiddlewares;

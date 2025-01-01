@@ -1,6 +1,6 @@
-const express = require("express");
-const uploadMiddlewares = require("./middlewares/upload-middleware");
-const middlewareC = require("./middlewares/middleware-c"); // Middleware personalizado
+const express = require('express');
+const uploadMiddlewares = require('./middlewares/upload-middleware');
+const middlewareC = require('./middlewares/middleware-c'); // Middleware personalizado
 
 const app = express();
 
@@ -55,17 +55,17 @@ app.use(function (err, req, res, next) {
 // Middleware embutido/próprio do Express para servir arquivos estáticos
 // Serve os arquivos da pasta "public" diretamente (como HTML, CSS, imagens, etc.)
 // Tipo: Middleware embutido/próprio
-app.use(express.static("public"));
+app.use(express.static('public'));
 
 // O .single() é uma função que retorna um middleware que processa um único arquivo associado a um determinado campo passado no formulário
 // neste caso, estamos informando que na rota '/upload' vai vir um campo de upload de arquivos que terá o nome 'image'
 // e ele é uma única imagem, logo irá retornar um middleware específico para converter/ler a imagem
 // Tipo: Middleware de terceiros (Multer)
-app.post("/upload", uploadMiddlewares.single("avatar"), (req, res) => {
+app.post('/upload', uploadMiddlewares.single('avatar'), (req, res) => {
   console.log(req.file, req.body);
 
-  res.json({ message: "arquivo salvo com sucesso" });
+  res.json({ message: 'arquivo salvo com sucesso' });
 });
 
 const PORT = 3000;
-app.listen(PORT, () => console.log("servidor iniciado"));
+app.listen(PORT, () => console.log('servidor iniciado'));

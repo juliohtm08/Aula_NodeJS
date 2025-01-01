@@ -1,0 +1,43 @@
+1. O que é autenticação?
+    => Mecanismo responsável por garantir que um usuário é quem ele diz ser;
+    => Usado par aseparar o conteúdo da aplicação que é apenas para visitantes do conteúdo para usuários;
+    => A implementação mais comum é por email e senha;
+
+1.1. Tipos de autenticação:
+    a. Credenciais únicas(email e senha);
+    b. Autenticação de Múltiplos fatores(MFA);
+    c. Single Sign-On(SSO);
+    d. Autenticação sem senha(passwordless);
+
+1.2. Protocolos e Estratégias de Autenticação:
+    => Baseada em sessões;
+    => OAuth;
+    => JWT(JSON Web Token);
+
+2. Autorização:
+    => Mecanismo responsável por garantir que partes específicas de uma aplicação sejam ou não acessados por determinados
+    usuários ou grupos de usuários;
+    => Trabalha com verificação dos privilégios e permissões dos usuários autenticados;
+
+2.1 Tipos de Autorização:
+    => Controle de Acesso Baseado em Atributos(ABAC): Permissões baseadas em atributos, como o cargo ou departamento de um usuário;
+    => Controle de Acesso Baseado em Papéis ou Roles(RBAC): Permissões atribuídas a papéis, e papéis são atributos aos usuários.
+    Ex: Admin, Editor e Leitor; 
+    => Listas de Controle de Acesso(ACLs): Listas que especificam quais usuários ou grupos de usuários tem permissão para acessar 
+    um determinados recursos;
+
+    Também podem especificar os tipos de açoes que podem ser realizadas(leitura, escrita, execução, etc).
+
+    Ex:
+        -Recurso: /documentoA
+            permissões: 
+                leitura: ['jhon', 'jane']
+                escrita: ['jane']
+                exclusão: ['admin']
+        -Recurso: /documentoB
+            permissões: 
+                leitura: ['Alice', 'Bob']
+                escrita: ['Bob']
+                exclusão: ['admin']
+
+
