@@ -21,8 +21,10 @@
 
 2.1 Tipos de Autorização:
     => Controle de Acesso Baseado em Atributos(ABAC): Permissões baseadas em atributos, como o cargo ou departamento de um usuário;
+
     => Controle de Acesso Baseado em Papéis ou Roles(RBAC): Permissões atribuídas a papéis, e papéis são atributos aos usuários.
     Ex: Admin, Editor e Leitor; 
+
     => Listas de Controle de Acesso(ACLs): Listas que especificam quais usuários ou grupos de usuários tem permissão para acessar 
     um determinados recursos;
 
